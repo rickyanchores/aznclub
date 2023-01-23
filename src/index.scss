@@ -3,6 +3,10 @@
 @import "./Pages/Events/Event.scss";
 @import "./Components/Nav/Nav.scss";
 
+
+//JURA FONTS
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -12,5 +16,5 @@
 body{
   background: black;
   color: white;
-  font-family: monospace;
+  font-family: 'Jura', sans-serif;
 }

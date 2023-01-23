@@ -1,10 +1,28 @@
 .Home{
-    background: rebeccapurple;
+    background: #ccc;
+    color: rebeccapurple;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     justify-content: center;
     align-items: center;
+    padding: 5em;
     h1{
       font-size: 50px;
+    }
+    .Cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+      height: 80vh;
+      .Card{
+        height: 350px;
+        background: rgb(46, 29, 63);
+        color: whitesmoke;
+        margin: 1em;
+      }
     }
   }

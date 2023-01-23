@@ -20,7 +20,6 @@ const Nav = () => {
 
   return (
     <div className='Nav'>
-        <div className="logo">Nav</div>
         <div className="navLinks">
             {navList.map((link) => {
                 return(
@@ -30,7 +29,6 @@ const Nav = () => {
                 )
             })}
         </div>
-        <div className="hamburger">X</div>
     </div>
   )
 }
