@@ -16,6 +16,11 @@
             font-weight: bold;
             text-transform: uppercase;
             margin: 1em;
+            color: whitesmoke;
+        }
+        .link:hover{
+            color: rebeccapurple;
+            transition: 0.2s ease-in;
         }
     }
 }

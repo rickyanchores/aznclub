@@ -1,8 +1,13 @@
 .Card{
-    background: grey;
+    background: black;
     padding: 5em;
     //border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Card:hover{
+    background: rebeccapurple;
+    transition: 0.2s ease-in;
 }

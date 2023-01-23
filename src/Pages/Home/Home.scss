@@ -1,28 +1,45 @@
 .Home{
-    background: #ccc;
-    color: rebeccapurple;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  h1{
+    font-size: 5em;
+  }
+  .Cards{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
-    justify-content: center;
     align-items: center;
-    padding: 5em;
-    h1{
-      font-size: 50px;
-    }
-    .Cards{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      width: 80%;
-      height: 80vh;
-      .Card{
-        height: 350px;
-        background: rgb(46, 29, 63);
-        color: whitesmoke;
-        margin: 1em;
-      }
+    .Card{
+      margin: 1em;
     }
   }
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f095ccc;
+}
+
