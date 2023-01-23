@@ -1,0 +1,10 @@
+.Home {
+  background: rebeccapurple;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home h1 {
+  font-size: 50px;
+}/*# sourceMappingURL=Home.css.map */

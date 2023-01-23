@@ -1,0 +1,10 @@
+.Event {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Event h1 {
+  font-size: 50px;
+}/*# sourceMappingURL=Event.css.map */
