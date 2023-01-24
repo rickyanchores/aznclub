@@ -4,6 +4,7 @@ import Nav from '../../Components/Nav/Nav';
 
 //IMPORT VIDEO
 import videoBG from "../../assets/clubvid.mp4"
+import Social from '../../Components/Social/Social';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           <Card className="card-two" />
         </div>
         <Nav />
+        <Social />
         </div>
     </div>
   )
