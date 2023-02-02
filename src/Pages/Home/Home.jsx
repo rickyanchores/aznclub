@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='Home'>
       <div className="overlay"></div>
-      <video src={videoBG} autoPlay loop muted/>
+      <video className='videoBG' src={videoBG} autoPlay loop muted/>
         <div className="content">
         <h1>AZNCLUB</h1>
         <div className="Cards">
@@ -25,3 +25,4 @@ const Home = () => {
 }
 
 export default Home;
+
