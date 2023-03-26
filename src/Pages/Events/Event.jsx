@@ -5,7 +5,11 @@ const Event = () => {
   return (
     <div className='Event'>
         <h3>Event</h3>
-        <Card />
+        <div className="container">
+          <Card />
+          <Card />
+          <Card />
+        </div>
     </div>
   )
 }
